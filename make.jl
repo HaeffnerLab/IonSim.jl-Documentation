@@ -14,3 +14,7 @@ makedocs(
         edit_link = nothing
     )
 )
+
+deploydocs(
+    repo = "github.com/HaeffnerLab/IonSim.jl-Documentation.git",
+)
